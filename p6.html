@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Jiayue | Code 2 Portfolio</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+
+  <body>
+    <!-- navigation menu -->
+    <div class="nav">
+      <h2><a href="index.html">Jiayue Gou</a></h2>
+      <ul>
+        <li><a href="p1.html">Lost and Found</a></li>
+        <li><a href="p2.html">Form Generator</a></li>
+        <li><a href="p3.html">Experimental Clock</a></li>
+        <li><a href="p4.html">Exquisite Corpse</a></li>
+        <li><a href="p5.html">Anti-Surveillance Tool</a></li>
+        <li><a href="p6.html">Experimental Camera</a></li>
+        <li><a href="p7.html">Bitmap Game</a></li>
+        <li><a href="p8.html">Consentful Interface</a></li>
+        <li><a href="p9.html">Data Portrait</a></li>
+        <li><a href="p10.html">Translation Device</a></li>
+      </ul>
+    </div>
+
+    <!-- main content -->
+    <div class="content">
+      <h1>
+        Project #6 Experimental Camera
+      </h1>
+
+      <div class="fullwidth">
+        <iframe
+          width="600px"
+          height="430px"
+          src="https://editor.p5js.org/jiayueg/embed/Sg8hHYpEX"
+        ></iframe>
+      </div>
+
+      Click
+      <a href="https://editor.p5js.org/jiayueg/present/Sg8hHYpEX">Here</a> to
+      access the camera.
+
+      <h2>
+        Description
+      </h2>
+
+      <div class="onethird">
+        <img
+          class="small"
+          src="https://cdn.glitch.com/a52bb57d-9dc4-47cc-ab86-e3be936c556a%2FScreen%20Shot%202020-11-14%20at%206.42.08%20AM.png?v=1605308964445"
+        />
+      </div>
+
+      <div class="onethird">
+        <img
+          class="small"
+          src="https://cdn.glitch.com/a52bb57d-9dc4-47cc-ab86-e3be936c556a%2FScreen%20Shot%202020-11-14%20at%206.43.04%20AM.png?v=1605308978767"
+        />
+      </div>
+
+      <div class="onethird">
+        <img
+          class="small"
+          src="https://cdn.glitch.com/a52bb57d-9dc4-47cc-ab86-e3be936c556a%2FScreen%20Shot%202020-11-14%20at%206.59.16%20AM.png?v=1605308992092"
+        />
+      </div>
+
+      <div class="onethird">
+        <img
+          class="small"
+          src="https://cdn.glitch.com/a52bb57d-9dc4-47cc-ab86-e3be936c556a%2FScreen%20Shot%202020-11-14%20at%207.01.12%20AM.png?v=1605308998791"
+        />
+      </div>
+
+      <div class="onethird">
+        <img
+          class="small"
+          src="https://cdn.glitch.com/a52bb57d-9dc4-47cc-ab86-e3be936c556a%2FScreen%20Shot%202020-11-14%20at%207.01.29%20AM.png?v=1605309007428"
+        />
+      </div>
+
+      <div class="onethird">
+        <img
+          class="small"
+          src="https://cdn.glitch.com/a52bb57d-9dc4-47cc-ab86-e3be936c556a%2FScreen%20Shot%202020-11-14%20at%207.03.11%20AM.png?v=1605309018864"
+        />
+      </div>
+
+      <p>
+        My camera is created in response to our extensive use of zoom this
+        semester. Since the start of Covid-19, most schools went online, and
+        webcam became our most used means of communication, yet I’m not someone
+        who is comfortable on camera. I just feel like I’m sitting in front of
+        my laptop for the majority of the time these days, and the only way
+        someone can get to know me is through this tiny window on zoom. There
+        are other aspects about me that could be easily ignored compared to
+        in-person interaction. As someone who is not comfortable on camera, I
+        want to create a filter that disguises my appearance without completely
+        erasing myself from the video so that my gesture and perhaps my
+        expressions is showing without actually showing my face. This way people
+        can still see me without actually seeing me. I think it’s also a fun
+        twist to video chat. This camera is designed for myself or anyone else
+        who is like me.
+      </p>
+
+      <h2>
+        Design Process
+      </h2>
+
+      <div class="fullwidth">
+        <img
+          class="small"
+          src="https://cdn.glitch.com/a52bb57d-9dc4-47cc-ab86-e3be936c556a%2FUntitled-1.jpg?v=1607092508237"
+        />
+      </div>
+
+      <p>
+        All three of my initial ideas are related to identity disguise because
+        as someone who is not comfortable on camera, I have to spend a large
+        amount of time on zoom nowadays. The first one captures people in a
+        pixelated filter, so that only the gesture of the body is captured with
+        the actual appearance hidden. The second idea is to use the clmtrackr to
+        track the face and block part of the facial features as a way of
+        identity disguise. The third idea captures only the outline of the body,
+        so the only thing showing is the background. I decided to go with the
+        first one because I think it best expressed my idea, and I also really
+        liked how it looks the most. I experimented with pixel array and
+        manipulated the brightness value to achieve the final result. I used two
+        of my favorite colors to represent the light and dark area of the filter
+        as a way of expressing my identity, and when the mouse is pressed, there
+        is also a change in the blending of the filter. I also added a slider
+        that controls the brightness value of the camera.
+      </p>
+
+      <p></p>
+
+      <h2>
+        Reflection
+      </h2>
+
+      <p>
+        I have experimented with so many fun functions for this project. I tried
+        using the clmtrackr to explore facial recognition and make camera
+        filters out of it. I also tried pixel array, which is what I decided to
+        use for my final project. I encountered difficulties and definitely also
+        learned a lot during the process. This project is really interesting
+        because it made me think and explore the concept of seeing and how
+        camera can be manipulated and shaped in an unconventional way.
+      </p>
+    </div>
+  </body>
+</html>
+
+<link
+  rel="stylesheet"
+  type="text/css"
+  href="//fonts.googleapis.com/css?family=Josefin+Sans"
+/>
+<link
+  rel="stylesheet"
+  type="text/css"
+  href="//fonts.googleapis.com/css?family=Francois+One"
+/>
