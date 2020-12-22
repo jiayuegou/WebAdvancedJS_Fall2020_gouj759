@@ -1,0 +1,57 @@
+* {
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+}
+
+.questions {
+    widows: 70vw;
+    padding-left: 15vw;
+    padding-right: 15vw;
+    text-align: center;
+}
+
+.title {
+    display: block;
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 40px;
+    padding-top: 30vh;
+}
+
+#square {
+    width: 80%;
+    height: 10vh;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.btn {
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 20px;
+    width: 25vw;
+    padding: 10px 20px;
+    margin: 20px;
+    margin-top: 40px;
+    border-radius: 50px;
+    border: 3px solid white;
+}
+
+span {
+    display: block;
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 30px;
+    padding-top: 10vh;
+    margin-bottom: 1em;
+}
+
+#questionTwo {
+    display: none;
+}
