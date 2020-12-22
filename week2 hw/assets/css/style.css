@@ -1,0 +1,145 @@
+/* FOR LAPTOPS, DESKTOPS */
+
+body {
+    background-color: teal;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-weight: 200;
+    font-size: 1em;
+    text-align: center;
+}
+
+#widthheight {
+    display: none;
+}
+
+#webTitle {
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 40px;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    color: rgb(255, 255, 255);
+}
+
+.items {
+    width: 78vw;
+    height: 78vw;
+    float: left;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    margin: 1vw;
+}
+
+#desktop {
+    width: 80vw;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+#desktop a {
+    margin: 2vw;
+    color: white;
+    text-decoration: none;
+}
+
+#mobile a {
+    margin: 2vw;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+#mobile {
+    display: none;
+}
+
+#work {
+    position: absolute;
+    width: 80vw;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    display: inline-block;
+}
+
+@media all and (min-width: 800px) and (max-width: 1200px) {
+    body {
+        background-color: rgb(221, 204, 128);
+    }
+    .items {
+        width: calc(76vw/2);
+        height: calc(76vw/2);
+        float: left;
+        text-align: center;
+        background-color: whitesmoke;
+        margin: 1vw;
+    }
+}
+
+@media all and (min-width: 1201px) {
+    body {
+        background-color: rgb(161, 168, 162);
+    }
+    .items {
+        width: calc(74vw/3);
+        height: calc(74vw/3);
+        float: left;
+        text-align: center;
+        background-color: whitesmoke;
+        margin: 1vw;
+    }
+}
+
+
+/* FOR MOBILE */
+
+@media all and (max-device-width: 480px) and (orientation: portrait) {
+    body {
+        background-color: rgb(128, 255, 111);
+    }
+    .items {
+        width: 78vw;
+        height: 78vw;
+        float: left;
+        text-align: center;
+        background-color: rgb(255, 255, 255);
+        margin: 1vw;
+    }
+    #desktop {
+        display: none;
+    }
+    #mobile {
+        display: inline-block;
+    }
+    #webTitle {
+        color: rgb(0, 0, 0);
+    }
+    #mobile a {
+        font-family: "Arial Black", Gadget, sans-serif;
+    }
+}
+
+@media all and (max-device-width: 480px) and (orientation: landscape) {
+    body {
+        background-color: rgb(128, 255, 111);
+    }
+    .items {
+        width: calc(74vw/3);
+        height: calc(74vw/3);
+        float: left;
+        text-align: center;
+        background-color: rgb(255, 255, 255);
+        margin: 1vw;
+    }
+    #desktop {
+        display: none;
+    }
+    #mobile {
+        display: inline-block;
+    }
+    #webTitle {
+        color: rgb(0, 0, 0);
+    }
+    #mobile a {
+        font-family: "Arial Black", Gadget, sans-serif;
+    }
+}
